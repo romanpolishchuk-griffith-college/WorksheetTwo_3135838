@@ -7,7 +7,27 @@ import org.junit.jupiter.api.Test;
 class ConversionsTest {
 
 	@Test
-	void test() {
+	void euroToDollarTest() {
+		fail("Not yet implemented");
+	}
+	
+	@Test
+	void dollarToEuroTest() {
+		fail("Not yet implemented");
+	}
+	
+	@Test
+	void stringToIntegerTest() {
+		fail("Not yet implemented");
+	}
+	
+	@Test
+	void integerToStringTest() {
+		fail("Not yet implemented");
+	}
+	
+	@Test
+	void switchCaseTest() {
 		fail("Not yet implemented");
 	}
 
