@@ -2,7 +2,7 @@ package griffith;
 
 public class Conversions {
 	public double euroToDollar(double euro) {
-		return 0.0;
+		return Math.max(0, euro * 1.048);
 	}
 	public double dollarToEuro(double dollar){
 		return 0.0;
