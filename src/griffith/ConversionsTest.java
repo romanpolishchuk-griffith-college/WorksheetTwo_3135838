@@ -23,7 +23,17 @@ class ConversionsTest {
 	
 	@Test
 	void dollarToEuroTest() {
-		fail("Not yet implemented");
+		//Create grades class instance
+		Conversions conversions = new Conversions();
+		
+		//Test max is the first element
+		assertEquals(9, conversions.dollarToEuro(9.432));
+		//Test max is the last element
+		assertEquals(98, conversions.dollarToEuro(102.704));
+		//Test max is in the middle
+		assertEquals(0, conversions.dollarToEuro(0));
+		//Test max is the negative number
+		assertEquals(0, conversions.dollarToEuro(-999));
 	}
 	
 	@Test
