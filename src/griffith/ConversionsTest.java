@@ -8,7 +8,7 @@ class ConversionsTest {
 
 	@Test
 	void euroToDollarTest() {
-		//Create grades class instance
+		//Create Conversions class instance
 		Conversions conversions = new Conversions();
 		
 		//Test euro is 10
@@ -23,7 +23,7 @@ class ConversionsTest {
 	
 	@Test
 	void dollarToEuroTest() {
-		//Create grades class instance
+		//Create Conversions class instance
 		Conversions conversions = new Conversions();
 		
 		//Test dollar is 9.432
