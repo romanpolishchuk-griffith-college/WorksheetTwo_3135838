@@ -14,7 +14,7 @@ public class Conversions {
 		return (int)Double.parseDouble(val);
 	}
 	public String integerToString (int val){
-		return "";
+		return String.valueOf(val);
 	}
 	public String switchCase() // change uppercase to lowercase and vice versa
 	{
