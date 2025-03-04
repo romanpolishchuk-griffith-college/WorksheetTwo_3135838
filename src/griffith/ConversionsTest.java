@@ -38,7 +38,19 @@ class ConversionsTest {
 	
 	@Test
 	void stringToIntegerTest() {
-		fail("Not yet implemented");
+		//Create Conversions class instance
+		Conversions conversions = new Conversions();
+		
+		//Test string is 9
+		assertEquals(9, conversions.stringToInteger("9"));
+		//Test string is 14.55
+		assertEquals(14.55, conversions.stringToInteger("14.55"));
+		//Test string is 0
+		assertEquals(0, conversions.stringToInteger("0"));
+		//Test string is -999
+		assertEquals(-999, conversions.stringToInteger("-999"));
+		//Test string is null
+		assertEquals(0, conversions.stringToInteger(null));
 	}
 	
 	@Test
