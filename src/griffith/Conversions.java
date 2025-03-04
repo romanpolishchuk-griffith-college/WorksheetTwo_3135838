@@ -18,6 +18,17 @@ public class Conversions {
 	}
 	public String switchCase(String string) // change uppercase to lowercase and vice versa
 	{
-		return "";
+		StringBuilder newStringBuilder = new StringBuilder();
+		for(int i = 0; i < string.length(); i++) {
+			if(Character.isLowerCase(string.charAt(i))) {
+				newStringBuilder.
+					append(Character.toUpperCase(string.charAt(i)));
+			}
+			else {
+				newStringBuilder.
+					append(Character.toLowerCase(string.charAt(i)));
+			}
+		}
+		return newStringBuilder.toString();
 	}
 }
