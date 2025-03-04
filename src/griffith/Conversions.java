@@ -1,3 +1,8 @@
+/*
+ * Roman Polishchuk
+ * 3135838
+ */
+
 package griffith;
 
 public class Conversions {
