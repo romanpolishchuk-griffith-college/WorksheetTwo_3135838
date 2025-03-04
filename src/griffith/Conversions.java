@@ -8,7 +8,10 @@ public class Conversions {
 		return Math.round(Math.max(0, dollar * 0.954198473282));
 	}
 	public int stringToInteger (String val){
-		return 0;
+		if(val == null) {
+			return 0;
+		}
+		return (int)Double.parseDouble(val);
 	}
 	public String integerToString (int val){
 		return "";
