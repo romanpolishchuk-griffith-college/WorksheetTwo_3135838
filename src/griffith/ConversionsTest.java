@@ -55,7 +55,17 @@ class ConversionsTest {
 	
 	@Test
 	void integerToStringTest() {
-		fail("Not yet implemented");
+		//Create Conversions class instance
+		Conversions conversions = new Conversions();
+		
+		//Test int is 10
+		assertEquals("10", conversions.integerToString(10));
+		//Test int is 99
+		assertEquals("99", conversions.integerToString(99));
+		//Test int is 0
+		assertEquals("0", conversions.integerToString(0));
+		//Test int is -1000
+		assertEquals("-1000", conversions.integerToString(-1000));
 	}
 	
 	@Test
