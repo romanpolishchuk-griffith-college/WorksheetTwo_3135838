@@ -70,7 +70,18 @@ class ConversionsTest {
 	
 	@Test
 	void switchCaseTest() {
-		fail("Not yet implemented");
+		//Create Conversions class instance
+		Conversions conversions = new Conversions();
+		
+		//Test string is HELLO
+		assertEquals("hello", conversions.switchCase("HELLO"));
+		//Test string is planet
+		assertEquals("PLANET", conversions.switchCase("planet"));
+		//Test string is LaPtOp
+		assertEquals("lApToP", conversions.switchCase("LaPtOp"));
+		//Test string is lower_case_AnD_UPPER_CASE
+		assertEquals("LOWER_CASE_aNd_upper_case",
+				conversions.switchCase("lower_case_AnD_UPPER_CASE"));
 	}
 
 }
