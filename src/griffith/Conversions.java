@@ -5,7 +5,7 @@ public class Conversions {
 		return Math.max(0, euro * 1.048);
 	}
 	public double dollarToEuro(double dollar){
-		return 0.0;
+		return Math.round(Math.max(0, dollar * 0.954198473282));
 	}
 	public int stringToInteger (String val){
 		return 0;
